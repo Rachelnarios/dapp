@@ -1,0 +1,70 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+body {
+  background-color: black;
+  background-image: url("https://images.wagwalkingweb.com/media/daily_wag/name_guides/rough-collie-dog-names/hero/rough-collie-dog-names.jpg");
+  background-repeat: repeat;
+  background-size: 100% 1000px;
+}
+ .panel {
+   background-color: transparent;
+   border-color: transparent;
+   border: transparent;
+
+}
+.panel-default>.panel-heading{
+  color: transparent;
+background-color: transparent;
+ border-color: transparent;
+}
+.table{
+  background-color: transparent;
+  border-color: transparent;
+  border: 0px transparent;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+  background-color: ivory;
+  border-color: transparent;
+  border: 0px transparent;
+
+}
+form {
+  width: 250px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+}
+
+a{
+  font-size:20px;
+  color:black
+}
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+label {
+  margin-bottom: 8px;
+  color: blue;
+  font-weight: 600;
+}
+
+
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
